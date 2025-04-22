@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!-- Your scrollable content here -->
+            <TextView
+                android:id="@+id/textView2"
+                android:textAlignment="center"
+
+                android:layout_width="412dp"
+                android:layout_height="58dp"
+                android:background="#F6CA7C"
+                android:text="Projects"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#F4B3C9"
+                android:text="Rent Right Now"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:background="#DCEBEB"
+
+                android:text="People who search for a rentable house does not always stay near the area they want to move.By taking that in mind I made this website where people can search their rentable house from wherever they stay and wherever they want to move.\nFor implementing this project I use JavaScript, CSS, PHP, MySQL." />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DCEBEB"
+
+
+                app:srcCompat="@drawable/rentrightnow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#F4B3C9"
+                android:text="Employee Management System "
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:background="#DCEBEB"
+
+                android:text="Every company need a system where they can manage their employees.\n For implementing this I use JavaScript, CSS, PHP, MySQL." />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DCEBEB"
+                app:srcCompat="@drawable/pran" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#F4B3C9"
+                android:text="A Basic Laravel Project"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:background="#DCEBEB"
+                android:text="This project was made after I learn to use laravel and tailwind.\n For implementing this I use Laravel,Tailwind,MySQL "/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:background="#DCEBEB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/laravel" />
+
+            <!-- Add more views as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
