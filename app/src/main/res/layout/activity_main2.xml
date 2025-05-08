@@ -5,42 +5,34 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-    tools:layout_editor_absoluteX="34dp"
-    tools:layout_editor_absoluteY="143dp">
-
+    tools:context=".MainActivity2">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="409dp"
-        android:layout_height="76dp"
-        android:layout_marginEnd="353dp"
-        android:layout_marginBottom="712dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:background="#F6CA7C"
         android:text="Career Objective"
         android:textAlignment="center"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="397dp"
-        android:layout_height="651dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="#DCEBEB"
         android:textAlignment="center"
-        android:text="Seeking a job where I can build my career through my experience and
-        knowledge. As a dedicated, hard worker and sincere person I believe I can
-        make myself useful in a company. "
+        android:text="Seeking a job where I can build my career through my experience and knowledge. As a dedicated, hard worker and sincere person I believe I can make myself useful in a company."
         android:textSize="20sp"
-
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
